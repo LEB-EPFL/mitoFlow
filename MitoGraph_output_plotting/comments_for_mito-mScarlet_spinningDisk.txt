@@ -1,0 +1,8 @@
+This is the command I run
+
+./MitoGraph -xy 0.11 -z 0.2 -labels_off -adaptive 10 -path '/mnt/d/VMWare Shared Folder/230621_S1_Ctrl_secondRound000_decon'
+
+I found adaptive 10 to find also fainter mitos and gives a more complete picture of the network.
+Without this flag the network was split more accurately though, I would say. Although then again some mito were split eventhough they shouldn't have been...
+
+Deconvolving with Huygens beforehand makes a difference, albeit not huge, to the segmentation

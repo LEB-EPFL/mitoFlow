@@ -1,0 +1,4 @@
+go to the folder where you compiled the mitograph binary. In my case: \\wsl.localhost\Ubuntu\home\julius\MitoGraph\build
+In here do a shift + right click and select open Linux shell here
+Now enter the command to run mitograph. Example: ./MitoGraph -xy 0.145 -z 0.145 -path '/mnt/d/VMWare Shared Folder/221125_S4_arches_01_t1'
+I have my data stored on drive D so I tell WSL to mount that particular drive and go to that particular folder
