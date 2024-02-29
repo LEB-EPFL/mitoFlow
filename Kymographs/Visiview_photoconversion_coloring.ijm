@@ -1,0 +1,11 @@
+Stack.setChannel(1);
+run("Grays");
+Stack.setChannel(2);
+run("Green");
+resetMinAndMax();
+Stack.setChannel(3);
+run("Orange Hot");
+resetMinAndMax();
+Stack.setDisplayMode("Composite");
+run("Re-order Hyperstack ...", "channels=[Channels (c)] slices=[Frames (t)] frames=[Slices (z)]");
+run("Set Scale...", "distance=1 known=0.103 unit=um");
